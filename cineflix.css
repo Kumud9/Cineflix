@@ -1,0 +1,205 @@
+.container{
+    
+    height: 120vh;
+    color: red;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(netback.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0%;
+}
+.content{
+     border: blue solid 2px;
+     color: white; width: 500px;height: 400px;
+     font-size: 60px;
+}
+
+span{
+    
+    color: aliceblue; font-size: 60px; font-weight: 800; text-transform: capitalize;
+    position: absolute;left: 25%;text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 34%;
+ }
+
+h5{
+    color: azure;
+    position: absolute;
+    top: 55%;
+    left:37% ; text-align: center;
+}
+p{
+    color: azure;
+    font-size: 15px;
+    position: absolute;
+    top: 65%;
+    left: 30%; text-align: center;
+}
+input{
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    border: 1px white solid;
+    background-color: black;
+    color: azure;
+    padding: 5px 20px 5px 25px;
+    height:40px ; width: 200px;
+   border-radius: 3px; 
+}
+button{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    color: azure;
+    background-color: red;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    height:50px ; width: 200px;
+    border-radius: 3px;
+    font-size: 23px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(134, 30, 30);
+}
+#sign{
+    left: 89%;
+    top: 8%;
+    width: 110px;height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: azure;
+}
+#eng{
+    top: 8%; left: 78%; width: 10%; height: 6%;
+    font-size: 20px; background: transparent;
+    border: white 2px solid; padding: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+h3{
+    color: azure; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 123%;
+    left: 10%;
+}
+img{
+    position: absolute;
+    top: 135%;
+    left: 5%;
+    cursor: pointer;
+    height: 330px;
+    width: 230px;  
+    border-radius: 3px ;  
+}
+.squid{
+    left: 80%;
+}
+.alice{
+    left: 62%;
+}
+.lucky{
+    left: 43%;
+}
+.mis{
+    left: 24%;
+}
+.bhool{
+    left: 5%;
+}
+img:hover{
+   transform: scale(1.2)
+}
+
+body{
+   
+  background-color: black;
+   
+}
+
+.images{
+    border-radius: 5px;
+    height: 60vh;
+   /* border: 2px red solid;*/
+    background-color: black;
+
+}
+.features{
+  /*  border:3px yellow solid ; color: aliceblue;*/
+    height: 60vh; background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    
+    
+}
+
+.box{
+     width: 250px;height: 200px;
+    background-color: rgb(28, 29, 62);/* border: 2px red;*/
+    border-radius: 4px; margin-left: 5%;margin: 2%; margin-top: 10%;
+    font-size: 20px;text-align: center;color: rgb(105, 102, 102);
+    
+}
+.fa-tv{
+    color: rgb(131, 5, 60); position: relative;left: 4%; top: 20%;
+    font-size: 30px; 
+}
+.fa-regular{
+    position: relative;left: 30%; top: 20%;
+    font-size: 30px;color: rgb(131, 5, 60);
+   
+}
+.fa-location-dot{
+    position: relative;left: 5%; top: 30%;
+    font-size: 30px;color: rgb(131, 5, 60);
+}
+.fa-children{
+    position: relative;left: 40%; top: 10%;
+    font-size: 30px;color: rgb(131, 5, 60);
+}
+.footer{
+    height: 70vh;
+    background-color: black; color: rgb(126, 122, 122);
+   }
+h2{
+    font-size: 18px; font-weight: 400; color: azure;
+    position: absolute;top: 0px; margin-left: 20px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.footer .col{
+    flex-basis:25% ; flex-grow:1 ; margin-bottom: 20px;
+}
+.footer .col a{
+    display: block;text-decoration: none;
+    color: rgb(126, 122, 122); font-size: 14px;margin-bottom: 10%;
+}
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0; font-size: 10px;
+    display: flex; flex-direction: row; align-items: center;
+    justify-content: space-evenly; align-content: end; margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline; 
+}
+#lang{
+    color: white; border: 2px solid white; margin-bottom: 0%;
+}
+.logo{
+    width: 400px; height: 200px; position: absolute; 
+    top: 0%; left: 0%;
+    mix-blend-mode: screen;
+}
+.logo:hover{
+    transform: none;
+}
+
+
